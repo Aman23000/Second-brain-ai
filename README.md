@@ -225,8 +225,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit for the amazing UI framework
 
 ## 📧 Contact
-
-Your Name - Aman Jain
+Aman Jain
 
 Project Link:
 

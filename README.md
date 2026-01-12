@@ -226,8 +226,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 Aman Jain
-
-Project Link:
+Project Link:https://github.com/Aman23000/Second-brain-ai
 
 ---
 

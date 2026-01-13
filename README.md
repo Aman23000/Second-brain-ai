@@ -12,6 +12,10 @@ A powerful RAG (Retrieval Augmented Generation) application that transforms your
 - **Source Attribution**: See which documents your answers come from
 - **Persistent Storage**: Your knowledge base is saved and grows over time
 
+## 💡 Why I Built This
+
+I created this project to dive deep into RAG architecture and understand how modern AI systems work with custom knowledge bases. Building this taught me about vector embeddings, semantic search, document processing pipelines, and creating production-ready AI applications. It's a tool I actually use to manage my notes and research papers!
+
 ## 🏗️ Architecture
 
 The project uses a modern RAG architecture:
@@ -225,10 +229,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit for the amazing UI framework
 
 ## 📧 Contact
-
-Your Name - Aman Jain
-
-Project Link:
+Aman Jain
+Project Link:https://github.com/Aman23000/Second-brain-ai
 
 ---
 

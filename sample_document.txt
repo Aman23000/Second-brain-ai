@@ -1,0 +1,35 @@
+# Sample Document for Second Brain AI
+
+## Introduction to RAG Systems
+
+Retrieval Augmented Generation (RAG) is a powerful technique that combines the strengths of retrieval-based and generation-based AI systems. This approach has revolutionized how we build AI applications that need to access and reason over large knowledge bases.
+
+## How RAG Works
+
+RAG systems work in three main steps:
+
+1. **Document Processing**: Documents are broken down into smaller chunks and converted into vector embeddings.
+
+2. **Retrieval**: When a user asks a question, the system searches for the most relevant chunks using vector similarity.
+
+3. **Generation**: The retrieved context is fed to a language model, which generates a natural language response.
+
+## Benefits of RAG
+
+- **Accuracy**: Provides source-grounded responses
+- **Transparency**: Users can see which documents informed the answer
+- **Scalability**: Can handle large document collections
+- **Privacy**: Can run entirely on local hardware
+
+## Use Cases
+
+RAG systems are perfect for:
+- Personal knowledge management
+- Enterprise document search
+- Customer support automation
+- Research assistance
+- Legal document analysis
+
+## Conclusion
+
+RAG represents a significant advancement in making AI more practical and trustworthy for real-world applications.

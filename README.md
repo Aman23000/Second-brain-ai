@@ -1,8 +1,8 @@
-# 🧠 Second Brain AI - Personal AI Knowledge Base
+#  Second Brain AI - Personal AI Knowledge Base
 
 A powerful RAG (Retrieval Augmented Generation) application that transforms your documents into an intelligent, queryable knowledge base. Upload PDFs, notes, and documents, then ask questions as if you're querying your own brain.
 
-## 🌟 Features
+##  Features
 
 - **Multi-Format Support**: Upload PDF, TXT, and DOCX files
 - **Intelligent Chunking**: Automatic document processing with smart text splitting
@@ -12,11 +12,11 @@ A powerful RAG (Retrieval Augmented Generation) application that transforms your
 - **Source Attribution**: See which documents your answers come from
 - **Persistent Storage**: Your knowledge base is saved and grows over time
 
-## 💡 Why I Built This
+##  Why I Built This
 
 I created this project to dive deep into RAG architecture and understand how modern AI systems work with custom knowledge bases. Building this taught me about vector embeddings, semantic search, document processing pipelines, and creating production-ready AI applications. It's a tool I actually use to manage my notes and research papers!
 
-## 🏗️ Architecture
+##  Architecture
 
 The project uses a modern RAG architecture:
 
@@ -35,7 +35,7 @@ The project uses a modern RAG architecture:
    - LangChain RetrievalQA for orchestration
    - Ollama for local LLM inference
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have:
 
@@ -44,7 +44,7 @@ Before you begin, ensure you have:
 - At least 8GB RAM (16GB recommended)
 - 5GB free disk space
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Step 1: Clone the Repository
 
@@ -110,7 +110,7 @@ streamlit run app.py
 
 The application will open in your browser at `http://localhost:8501`
 
-## 💻 Usage
+##  Usage
 
 ### Adding Documents
 
@@ -133,7 +133,7 @@ The application will open in your browser at `http://localhost:8501`
 - **Try different models**: Mistral might give different insights than Llama2
 - **Check sources**: Always verify important information from the source documents
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 second-brain-ai/
@@ -144,7 +144,7 @@ second-brain-ai/
 └── .gitignore            # Git ignore file
 ```
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 - **Framework**: Streamlit (UI)
 - **LLM Orchestration**: LangChain
@@ -153,7 +153,7 @@ second-brain-ai/
 - **LLM**: Ollama (Llama2, Mistral, CodeLlama)
 - **Document Processing**: PyPDF, python-docx, docx2txt
 
-## 🔧 Configuration
+##  Configuration
 
 ### Changing Chunk Size
 
@@ -177,7 +177,7 @@ retriever=self.vectorstore.as_retriever(
 ),
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### "Connection refused" error
 - Make sure Ollama is running: `ollama serve`
@@ -197,7 +197,7 @@ retriever=self.vectorstore.as_retriever(
 - Ensure file is not corrupted
 - Check console for error messages
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Support for more file formats (MD, HTML, CSV)
 - [ ] Conversation history and chat interface
@@ -207,7 +207,7 @@ retriever=self.vectorstore.as_retriever(
 - [ ] Document summarization
 - [ ] API endpoint for programmatic access
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -221,7 +221,7 @@ Contributions are welcome! Here's how you can help:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - LangChain for the excellent RAG framework
 - ChromaDB for the vector database
